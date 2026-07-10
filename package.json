@@ -1,0 +1,17 @@
+{
+  "name": "quant-server",
+  "version": "1.0.0",
+  "description": "TUGAY × QUANT — canlı emir + circuit breaker sunucusu (Faz 0 + Faz 1)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
